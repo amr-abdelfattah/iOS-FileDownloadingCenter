@@ -1,0 +1,6 @@
+framework module Pods_FileDownloadingCenter_Example {
+  umbrella header "Pods-FileDownloadingCenter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

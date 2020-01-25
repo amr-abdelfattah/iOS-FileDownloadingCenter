@@ -1,0 +1,6 @@
+framework module Pods_FileDownloadingCenter_Tests {
+  umbrella header "Pods-FileDownloadingCenter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

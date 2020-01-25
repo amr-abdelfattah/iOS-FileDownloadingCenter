@@ -1,0 +1,6 @@
+framework module FileDownloadingCenter {
+  umbrella header "FileDownloadingCenter-umbrella.h"
+
+  export *
+  module * { export * }
+}
