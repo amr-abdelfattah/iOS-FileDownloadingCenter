@@ -37,13 +37,13 @@ open class ModelDownloaderManager : ModelDownloaderManagerProtocol {
     
     open var noInternetConnectionMessage : String {
         
-        "No Internet Connection !"
+        return "No Internet Connection !"
         
     }
     
     open var celluarNetworkInternetConnectionMessage : String {
         
-        "Connection may be not allow to establish this downloading session, you may review settings page to enable downloading over cellular connection"
+        return "Connection may be not allow to establish this downloading session, you may review settings page to enable downloading over cellular connection"
         
     }
     
