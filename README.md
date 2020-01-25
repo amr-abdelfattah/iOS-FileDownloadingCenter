@@ -220,11 +220,22 @@ Swift 5+
 
 ## Installation
 
+### CocoaPods
+
 FileDownloadingCenter is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'FileDownloadingCenter'
+```
+
+### Swift Package Manager
+The Swift Package Manager is a tool for automating the distribution of Swift code and is integrated into the swift compiler.
+
+```
+dependencies: [
+.package(url: "https://github.com/amr-abdelfattah/iOS-FileDownloadingCenter.git", from: "1.0.0")
+]
 ```
 
 ## License
