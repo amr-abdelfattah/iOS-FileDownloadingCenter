@@ -109,19 +109,13 @@
 		607FACD21AFB9204008FA782 /* Example for FileDownloadingCenter */ = {
 			isa = PBXGroup;
 			children = (
+				845E6F1E23DD073B00A02215 /* DownlodingCenter */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
-				845E6F0E23DCE61900A02215 /* Track.swift */,
-				845E6F1223DCE9ED00A02215 /* DownloadSessionConfiguration.swift */,
-				845E6F1423DCEA3000A02215 /* MyDownloadableItemProvider.swift */,
-				845E6F1623DCEAA700A02215 /* TracksRepository.swift */,
-				845E6F1823DCEC6000A02215 /* MyDownloaderManager.swift */,
-				845E6F1A23DCF75800A02215 /* DownloadFileManager.swift */,
-				845E6F1C23DCFD9800A02215 /* TrackTableViewCell.swift */,
 			);
 			name = "Example for FileDownloadingCenter";
 			path = FileDownloadingCenter;
@@ -170,6 +164,20 @@
 				AF3D683AD35FB90AEAC62CBE /* Pods_FileDownloadingCenter_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		845E6F1E23DD073B00A02215 /* DownlodingCenter */ = {
+			isa = PBXGroup;
+			children = (
+				845E6F0E23DCE61900A02215 /* Track.swift */,
+				845E6F1223DCE9ED00A02215 /* DownloadSessionConfiguration.swift */,
+				845E6F1423DCEA3000A02215 /* MyDownloadableItemProvider.swift */,
+				845E6F1623DCEAA700A02215 /* TracksRepository.swift */,
+				845E6F1823DCEC6000A02215 /* MyDownloaderManager.swift */,
+				845E6F1A23DCF75800A02215 /* DownloadFileManager.swift */,
+				845E6F1C23DCFD9800A02215 /* TrackTableViewCell.swift */,
+			);
+			name = DownlodingCenter;
 			sourceTree = "<group>";
 		};
 		F0502F272985F2D70ED462D3 /* Pods */ = {

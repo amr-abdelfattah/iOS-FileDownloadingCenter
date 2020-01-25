@@ -1,10 +1,13 @@
 # FileDownloadingCenter
 
 
-[![CI Status](https://img.shields.io/travis/amr-abdelfattah/FileDownloadingCenter.svg?style=flat)](https://travis-ci.org/amr-abdelfattah/FileDownloadingCenter)
-[![Version](https://img.shields.io/cocoapods/v/FileDownloadingCenter.svg?style=flat)](https://cocoapods.org/pods/FileDownloadingCenter)
-[![License](https://img.shields.io/cocoapods/l/FileDownloadingCenter.svg?style=flat)](https://cocoapods.org/pods/FileDownloadingCenter)
-[![Platform](https://img.shields.io/cocoapods/p/FileDownloadingCenter.svg?style=flat)](https://cocoapods.org/pods/FileDownloadingCenter)
+[![CI Status](https://img.shields.io/travis/amr-abdelfattah/iOS-FileDownloadingCenter.svg?style=flat)](https://travis-ci.org/amr-abdelfattah/iOS-FileDownloadingCenter)
+[![Version](https://img.shields.io/cocoapods/v/iOS-FileDownloadingCenter.svg?style=flat)](https://cocoapods.org/pods/iOS-FileDownloadingCenter)
+[![License](https://img.shields.io/cocoapods/l/iOS-FileDownloadingCenter.svg?style=flat)](https://cocoapods.org/pods/iOS-FileDownloadingCenter)
+[![Platform](https://img.shields.io/cocoapods/p/iOS-FileDownloadingCenter.svg?style=flat)](https://cocoapods.org/pods/iOS-FileDownloadingCenter)
+
+![Screenshot](https://github.com/amr-abdelfattah/iOS-FileDownloadingCenter/blob/v2.0.1/ScreenShots/screenshot_1.png)
+![Screenshot](https://github.com/amr-abdelfattah/iOS-FileDownloadingCenter/blob/v2.0.1/ScreenShots/screenshot_2.png)
 
 File Downloading Center is an iOS downloading library for files.
 

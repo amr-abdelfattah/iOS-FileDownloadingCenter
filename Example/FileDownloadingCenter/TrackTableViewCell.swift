@@ -20,7 +20,9 @@ class TrackTableViewCell: UITableViewCell {
     }
     
     override func awakeFromNib() {
+        
         super.awakeFromNib()
+        self.setIsDownloading(false)
         
     }
 
@@ -35,8 +37,7 @@ class TrackTableViewCell: UITableViewCell {
     
     func configure(_ track: Track) {
         
-        self.track = track 
-        self.setIsDownloading(false)
+        self.track = track
         self.textLabel?.text = self.track?.downloadableItemDescription.title
 //        self.detailTextLabel?.text = self.track?.downloadableItemDescription.subTitle
         
@@ -45,7 +46,6 @@ class TrackTableViewCell: UITableViewCell {
     private func setIsDownloading(_ isDownloading: Bool) {
         
         self.detailTextLabel?.text = isDownloading ? "Downloading ..." : ""
-        self.awakeFromNib()
         
     }
     
