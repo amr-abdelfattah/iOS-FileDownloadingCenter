@@ -14,6 +14,14 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		758679567D7BA9871D0A06B4 /* Pods_FileDownloadingCenter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D683AD35FB90AEAC62CBE /* Pods_FileDownloadingCenter_Tests.framework */; };
+		845E6F0F23DCE61900A02215 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E6F0E23DCE61900A02215 /* Track.swift */; };
+		845E6F1123DCE6BB00A02215 /* tracks.json in Resources */ = {isa = PBXBuildFile; fileRef = 845E6F1023DCE6BB00A02215 /* tracks.json */; };
+		845E6F1323DCE9ED00A02215 /* DownloadSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E6F1223DCE9ED00A02215 /* DownloadSessionConfiguration.swift */; };
+		845E6F1523DCEA3000A02215 /* MyDownloadableItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E6F1423DCEA3000A02215 /* MyDownloadableItemProvider.swift */; };
+		845E6F1723DCEAA700A02215 /* TracksRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E6F1623DCEAA700A02215 /* TracksRepository.swift */; };
+		845E6F1923DCEC6000A02215 /* MyDownloaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E6F1823DCEC6000A02215 /* MyDownloaderManager.swift */; };
+		845E6F1B23DCF75800A02215 /* DownloadFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E6F1A23DCF75800A02215 /* DownloadFileManager.swift */; };
+		845E6F1D23DCFD9800A02215 /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E6F1C23DCFD9800A02215 /* TrackTableViewCell.swift */; };
 		9CCD46EA4B7EB71AC80DFE05 /* Pods_FileDownloadingCenter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D30F392F868FA094321E8AB /* Pods_FileDownloadingCenter_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +50,14 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8396B16DDFF991DB65237D99 /* Pods-FileDownloadingCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileDownloadingCenter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FileDownloadingCenter_Tests/Pods-FileDownloadingCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		845E6F0E23DCE61900A02215 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		845E6F1023DCE6BB00A02215 /* tracks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tracks.json; sourceTree = "<group>"; };
+		845E6F1223DCE9ED00A02215 /* DownloadSessionConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadSessionConfiguration.swift; sourceTree = "<group>"; };
+		845E6F1423DCEA3000A02215 /* MyDownloadableItemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDownloadableItemProvider.swift; sourceTree = "<group>"; };
+		845E6F1623DCEAA700A02215 /* TracksRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksRepository.swift; sourceTree = "<group>"; };
+		845E6F1823DCEC6000A02215 /* MyDownloaderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDownloaderManager.swift; sourceTree = "<group>"; };
+		845E6F1A23DCF75800A02215 /* DownloadFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadFileManager.swift; sourceTree = "<group>"; };
+		845E6F1C23DCFD9800A02215 /* TrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTableViewCell.swift; sourceTree = "<group>"; };
 		8D30F392F868FA094321E8AB /* Pods_FileDownloadingCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileDownloadingCenter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C78373A2BCAED4FAAC39A9E /* Pods-FileDownloadingCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileDownloadingCenter_Tests.release.xcconfig"; path = "Target Support Files/Pods-FileDownloadingCenter_Tests/Pods-FileDownloadingCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AF3D683AD35FB90AEAC62CBE /* Pods_FileDownloadingCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileDownloadingCenter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +115,13 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				845E6F0E23DCE61900A02215 /* Track.swift */,
+				845E6F1223DCE9ED00A02215 /* DownloadSessionConfiguration.swift */,
+				845E6F1423DCEA3000A02215 /* MyDownloadableItemProvider.swift */,
+				845E6F1623DCEAA700A02215 /* TracksRepository.swift */,
+				845E6F1823DCEC6000A02215 /* MyDownloaderManager.swift */,
+				845E6F1A23DCF75800A02215 /* DownloadFileManager.swift */,
+				845E6F1C23DCFD9800A02215 /* TrackTableViewCell.swift */,
 			);
 			name = "Example for FileDownloadingCenter";
 			path = FileDownloadingCenter;
@@ -107,6 +130,7 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				845E6F1023DCE6BB00A02215 /* tracks.json */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -251,6 +275,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				845E6F1123DCE6BB00A02215 /* tracks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +361,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				845E6F1323DCE9ED00A02215 /* DownloadSessionConfiguration.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				845E6F1523DCEA3000A02215 /* MyDownloadableItemProvider.swift in Sources */,
+				845E6F1D23DCFD9800A02215 /* TrackTableViewCell.swift in Sources */,
+				845E6F0F23DCE61900A02215 /* Track.swift in Sources */,
+				845E6F1723DCEAA700A02215 /* TracksRepository.swift in Sources */,
+				845E6F1923DCEC6000A02215 /* MyDownloaderManager.swift in Sources */,
+				845E6F1B23DCF75800A02215 /* DownloadFileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

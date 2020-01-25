@@ -54,7 +54,7 @@ DownloaderManager or DownloaderQueue corresponding on your level of details that
 
 ### 3-  Conform to "DownloadableItemProvider" Protocol.
 
-    Class MyDownloadableItemProvider : DownloadableItemProvider {
+    class MyDownloadableItemProvider : DownloadableItemProvider {
         
         public static let shared = MyDownloadableItemProvider()
         
@@ -77,7 +77,7 @@ DownloaderManager or DownloaderQueue corresponding on your level of details that
 
     class MyDownloaderManager : ModelDownloaderManager {
         
-        public static var shared = AudioDownloaderManager()
+        public static var shared = MyDownloaderManager()
         
         override var noInternetConnectionMessage: String {
             
@@ -127,14 +127,15 @@ DownloaderManager or DownloaderQueue corresponding on your level of details that
 That is for restoring the intrupted downloads.
 
     private func initDownloaderManager() {
+           
+        let _ = MyDownloaderManager.shared
         
-        let _ = AudioDownloaderManager.shared
-        DownloaderManager.shared.restore(downloadableItemProvider: self, configuration: DownloadSessionConfiguration.instance, finished: { _ in
-                // Do your staff
-            })
-            
-        }
-        
+        DownloaderManager.shared.restore(downloadableItemProvider: MyDownloadableItemProvider.shared, configuration: DownloadSessionConfiguration.instance, finished: { _ in
+                   
+            // Do your staff
+                        
+        })
+               
     }
 
 ### 6- Conform to the "DownloaderListener" protocol in order for listening and handling the callbacks of the downloading progress
@@ -149,7 +150,7 @@ That is for restoring the intrupted downloads.
 
         func removeObservers() {
              
-             AudioDownloaderManager.shared.removeListener(downloaderListener: self)
+             MyDownloaderManager.shared.removeListener(downloaderListener: self)
                
         }
            
@@ -195,6 +196,10 @@ That is for restoring the intrupted downloads.
            
            func queue(didUpdateProgress downloaderQueue: DownloaderQueue) {
                
+           }
+           
+           func file(didDelete downloadableItem: DownloadableItem, withError hasError: Bool) {
+             
            }
            
     }

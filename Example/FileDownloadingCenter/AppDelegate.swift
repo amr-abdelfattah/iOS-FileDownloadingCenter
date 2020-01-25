@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FileDownloadingCenter
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,8 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        self.initDownloaderManager()
+        
         return true
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -44,3 +48,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate {
+    
+    private func initDownloaderManager() {
+           
+        let _ = MyDownloaderManager.shared
+        
+        DownloaderManager.shared.restore(downloadableItemProvider: MyDownloadableItemProvider.shared, configuration: DownloadSessionConfiguration.instance, finished: { _ in
+                   
+            // Do your staff
+            
+                print("Restoring is Finished")
+            
+        })
+               
+    }
+           
+}
