@@ -233,7 +233,7 @@ The Swift Package Manager is a tool for automating the distribution of Swift cod
 
 ```
 dependencies: [
-.package(url: "https://github.com/amr-abdelfattah/iOS-FileDownloadingCenter.git", from: "1.0.2")
+.package(url: "https://github.com/amr-abdelfattah/iOS-FileDownloadingCenter.git", from: "1.0.4")
 ]
 ```
 

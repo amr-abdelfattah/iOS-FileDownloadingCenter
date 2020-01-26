@@ -21,9 +21,6 @@ let package = Package(
         .target(
             name: "FileDownloadingCenter",
             dependencies: ["Reachability"],
-            path: "FileDownloadingCenter"),
-        .testTarget(
-            name: "FileDownloadingCenter_Tests",
-            dependencies: ["FileDownloadingCenter"]),
+            path: "FileDownloadingCenter")
     ]
 )
