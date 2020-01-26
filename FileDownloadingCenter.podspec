@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FileDownloadingCenter'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'File Downloading Center is an iOS downloading library for files.'
   s.description      = 'File Downloading Center is used for facilitating the files downloading and all its stuff from storing, restoring, displaying, ...'
   s.author       = { 'Amr Elsayed' => 'amrelsayed.mohamed@gmail.com' }
