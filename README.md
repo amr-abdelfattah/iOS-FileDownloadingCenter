@@ -1,10 +1,9 @@
 # FileDownloadingCenter
 
 
-[![CI Status](https://img.shields.io/travis/amr-abdelfattah/iOS-FileDownloadingCenter.svg?style=flat)](https://travis-ci.org/amr-abdelfattah/iOS-FileDownloadingCenter)
-[![Version](https://img.shields.io/cocoapods/v/iOS-FileDownloadingCenter.svg?style=flat)](https://cocoapods.org/pods/iOS-FileDownloadingCenter)
-[![License](https://img.shields.io/cocoapods/l/iOS-FileDownloadingCenter.svg?style=flat)](https://cocoapods.org/pods/iOS-FileDownloadingCenter)
-[![Platform](https://img.shields.io/cocoapods/p/iOS-FileDownloadingCenter.svg?style=flat)](https://cocoapods.org/pods/iOS-FileDownloadingCenter)
+[![Version](https://img.shields.io/cocoapods/v/iOS-FileDownloadingCenter.svg?style=flat)](https://cocoapods.org/pods/FileDownloadingCenter)
+[![License](https://img.shields.io/cocoapods/l/iOS-FileDownloadingCenter.svg?style=flat)](/LICENSE)
+[![Platform](https://img.shields.io/cocoapods/p/iOS-FileDownloadingCenter.svg?style=flat)](https://cocoapods.org/pods/FileDownloadingCenter)
 
 ![Screenshot](https://github.com/amr-abdelfattah/iOS-FileDownloadingCenter/tree/master/ScreenShots/screenshot_1.png)
 ![Screenshot](https://github.com/amr-abdelfattah/iOS-FileDownloadingCenter/tree/master/ScreenShots/screenshot_2.png)
