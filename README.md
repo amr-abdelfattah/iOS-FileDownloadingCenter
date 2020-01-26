@@ -119,7 +119,7 @@ DownloaderManager or DownloaderQueue corresponding on your level of details that
         
         override func updateItemDownloadFlag(itemIndentifier: String, isDownloaded: Bool) {
             
-            // item state is changed to isDownloaded, do your staff.
+            // item state is changed to isDownloaded, do your stuff.
             
         }
         
@@ -134,7 +134,7 @@ That is for restoring the intrupted downloads.
         
         DownloaderManager.shared.restore(downloadableItemProvider: MyDownloadableItemProvider.shared, configuration: DownloadSessionConfiguration.instance, finished: { _ in
                    
-            // Do your staff
+            // Do your stuff
                         
         })
                
@@ -172,10 +172,10 @@ That is for restoring the intrupted downloads.
                        switch state {
                            
                        case .error:
-                       // Do Your Staff.
+                       // Do Your stuff.
                            
                         case .completed:
-                        // Do Your Staff.
+                        // Do Your stuff.
                            
                        default:
                            break
@@ -190,7 +190,7 @@ That is for restoring the intrupted downloads.
                if self.isCurrentDownloader(downloader: fileDownloader) {
                    
                    let progress = fileDownloader.progress!
-                   // Do Your Staff.
+                   // Do Your stuff.
                    
                }
                
@@ -233,7 +233,7 @@ The Swift Package Manager is a tool for automating the distribution of Swift cod
 
 ```
 dependencies: [
-.package(url: "https://github.com/amr-abdelfattah/iOS-FileDownloadingCenter.git", from: "1.0.4")
+.package(url: "https://github.com/amr-abdelfattah/iOS-FileDownloadingCenter.git", from: "1.0.5")
 ]
 ```
 
