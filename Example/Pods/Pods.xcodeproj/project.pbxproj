@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		021CC47A5111E138381209D4A6F03FD5 /* DownloaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1219CEB41CC1ECF293273FCA0F506C85 /* DownloaderManager.swift */; };
-		16D118DC449E7702DDF5F17FB650E830 /* SessionCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A0578E37409EDBC45BA4D046C72B4 /* SessionCenter.swift */; };
-		1E79C9040C5B7687E3A91C8B773815A2 /* DefaultSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD485B15496DA0A978895BE2090FDEC /* DefaultSessionConfiguration.swift */; };
-		22DF5CFC8CECD52F911C1E2747F24FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D281F36DB7F08E4EC7052F565890566 /* Foundation.framework */; };
-		24E803B80FE3628042E0CC3D536E845A /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB69B58096F429C78AA6E392B25A9933 /* FileManagerExtension.swift */; };
+		067E3259C6D6768CF34DAF9C67174E18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D281F36DB7F08E4EC7052F565890566 /* Foundation.framework */; };
+		1890FE200BBA75CBCE508D7A5A0D3835 /* DownloadTaskState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48D3A67C579348BE6DD585E4873E273 /* DownloadTaskState.swift */; };
+		1BE38006F7BB69A0FAA07D10BD77FF3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D281F36DB7F08E4EC7052F565890566 /* Foundation.framework */; };
+		1F11D5FB998E8ED0DA95767B6C84FF77 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98D31F0947659EDA26AD0332B9FD098 /* CoreTelephony.framework */; };
 		268A74471C6099EFDDF5654A898AA68C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D281F36DB7F08E4EC7052F565890566 /* Foundation.framework */; };
-		2AAA0D80AD4DC55CCB8C67903B4D9DA1 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DB674B68B432A02697EB1664B9CD4E /* ReachabilitySwift-dummy.m */; };
-		2D2AB0F1E41B6D9C4EE7840FD8F2CB04 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09A4723F06A242B0FA6447B7FEEFF90 /* SystemConfiguration.framework */; };
-		2F0F35D93A0B268524AB19B78C776436 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98D31F0947659EDA26AD0332B9FD098 /* CoreTelephony.framework */; };
+		2B557B8A44CA323E8F13F5CD7E639225 /* DownloaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2732D655E41FD1FD2C1BA95B6F525E9D /* DownloaderManager.swift */; };
+		35E7BA0BB527E0A135336C6E203E4FA1 /* ModelDownloaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F2745A322D8813FDC2353A5247B1B /* ModelDownloaderManager.swift */; };
 		44EB6BD16858869C2D39764F71480300 /* Pods-FileDownloadingCenter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B99A2EC123714C7D13A5D6D0F6C0D1BC /* Pods-FileDownloadingCenter_Tests-dummy.m */; };
-		4613C9D222466BC34044D961FDCA0561 /* SafeDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322E2658AB24D3C13C1A8F217B0CBEC0 /* SafeDictionary.swift */; };
-		4EF388C12CC5293B5BEB36A2F06472EC /* DownloaderQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EBE6903C7DB7999C40CE81B5FDD203 /* DownloaderQueue.swift */; };
-		59BF809CAD376F99D86A71411F2430A3 /* FileDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76993CD1BF80727D1765EE4E9A1FB108 /* FileDownloader.swift */; };
-		5CACD7BD343AA2D41B2B7CC7E8B2CD70 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D99B866A2CAD806F78A46445A9E5B9 /* ReachabilityManager.swift */; };
-		67A2DE2A10934EFDF7D880EADDC2FDA8 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DDE56472C3C9DF16E4AD6EA2992448 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		521E59EB584B360D466DE4EC962B297E /* SessionCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F10BAA665A31DF259190E56537A73E /* SessionCenter.swift */; };
+		548DA259ADC2DB2A94421120CE94AA0E /* FileDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308D364F2BCE54C1F8E16AB2C0650424 /* FileDownloader.swift */; };
+		57F1E34E1688EC4F07C866C2A0F881E4 /* DefaultSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62DF9DF9C2D8324E6460988A3AD1D28 /* DefaultSessionConfiguration.swift */; };
+		5A83970441CE748EEB5F9155F43E35DC /* SafeDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D2E2BEDF0384498A443088A4B9E59 /* SafeDictionary.swift */; };
+		69C70556B3A44CD5FC6DC557DDBCD02E /* DownloadableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DA12733D71E6D29BD0BBD47FCF7B5C /* DownloadableItem.swift */; };
 		72C77EB3D9DE62F3E3E7A0F82228920E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D281F36DB7F08E4EC7052F565890566 /* Foundation.framework */; };
-		8068BA8F9ACEA5342551FDAF62A0353F /* FileDownloadingCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1D40AA647C94453BBE0D22CAE943A1 /* FileDownloadingCenter-dummy.m */; };
-		8E0F62BFCF062B2BF67EF6AAF7A1B974 /* ModelDownloaderManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F078DA3C63439BC100BD88A3B806CFC /* ModelDownloaderManagerProtocol.swift */; };
-		9C46EDC23FAAF38CD2A1E7D274CABDB9 /* DownloadTaskState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538E9CA21502AE1DD786BFC30AFEB214 /* DownloadTaskState.swift */; };
-		AEECB5D180D3CB7D0CCDEE7A41CA3143 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D281F36DB7F08E4EC7052F565890566 /* Foundation.framework */; };
+		99BA1A3F2485BFD7B7A87320291EABFA /* FileDownloadingCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB56CE70A5CD5545954E0DA1B224DC /* FileDownloadingCenter-dummy.m */; };
+		AF767725D2643C2D7CC2B628C5C5A2C7 /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF347EF9C7F402EAAB01285A7AC181D1 /* FileManagerExtension.swift */; };
 		B7EE32D9FBB4D26132068B75C45B2A52 /* Pods-FileDownloadingCenter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D59EC7F62BBE4E2A9A301682F8F09D /* Pods-FileDownloadingCenter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3EB57CF195CA74FE726876A77F5D26A /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DB674B68B432A02697EB1664B9CD4E /* ReachabilitySwift-dummy.m */; };
 		C43D870DE5C429228789452767E52E3A /* Pods-FileDownloadingCenter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 873AF855CD5210FB782611EB6BB6B26F /* Pods-FileDownloadingCenter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7835CDD9DED60524E60FBAF96C4B543 /* DownloadTaskOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A0EF58D2CCC62A28E3FDFAD4B1DD47 /* DownloadTaskOperation.swift */; };
-		D0345B050823A1287E4BB21CB5D29F5E /* FileDownloadingCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DAA15F4947E7A652D010219295D6E6F /* FileDownloadingCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D03BFE5B1049C78AF3FCD996A5B4A37D /* DownloadableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3911DE4C426E8F33CAB6E394927A48 /* DownloadableItem.swift */; };
-		F67DF139AC7648B5506A4BFD68AA1A32 /* ModelDownloaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF87252CA3AAD757B78ED4E2E5FF2D /* ModelDownloaderManager.swift */; };
+		C648607295887A4FBEF99D2A629C5094 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D8A739C4668EF2C0C1960A08F079D3 /* Reachability.framework */; };
+		C69FCC077BC6EE89CAE3EF1C82BF985C /* DownloadTaskOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED084E2F51A6BC2B07EDE83FEC95577 /* DownloadTaskOperation.swift */; };
+		C75215D277B5EB9A3B86F82F9BF45C00 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09A4723F06A242B0FA6447B7FEEFF90 /* SystemConfiguration.framework */; };
+		C7BE5D2DF9B4C80779E1EEEFCF0F3C49 /* DownloaderQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85665B2D4737161268A834A079CC821 /* DownloaderQueue.swift */; };
+		D51844ACFA66F64755F71D521A1248DB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4904C2121D407349697EEC458E7A2C0 /* Reachability.swift */; };
+		DC93B9970E042D790AA41CEAEE791DE5 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DDE56472C3C9DF16E4AD6EA2992448 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECA2D610BFDB8AE820573D272ABD0C24 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30E2C072A1B89C97A9F2F16BB94098E /* ReachabilityManager.swift */; };
+		F676C56F3924372A9338C9C1DB6B50A1 /* FileDownloadingCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CA9B92E3C24EE078C92DB23AD971CF /* FileDownloadingCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F69AB73805E436B441C1194E71DB141A /* ModelDownloaderManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC53342CB4BBD9853634BFA48396502 /* ModelDownloaderManagerProtocol.swift */; };
 		F7BAAEA25256989061E44296C4A17FF7 /* Pods-FileDownloadingCenter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E0A3195347102D045E1D9CE781542B /* Pods-FileDownloadingCenter_Example-dummy.m */; };
-		F96C0D3E8C7032788267A25318A13C09 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4904C2121D407349697EEC458E7A2C0 /* Reachability.swift */; };
-		FFA9A015A00032FED87B4220FB675E4C /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D8A739C4668EF2C0C1960A08F079D3 /* Reachability.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,7 @@
 			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
 			remoteInfo = ReachabilitySwift;
 		};
-		6E3B216C6A69F136F05C09E485C7E5EA /* PBXContainerItemProxy */ = {
+		78A08F22B6F06A743FA96C287D815B9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -70,61 +70,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02A0EF58D2CCC62A28E3FDFAD4B1DD47 /* DownloadTaskOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DownloadTaskOperation.swift; sourceTree = "<group>"; };
+		026991FF998D527EB6D17B3C43F8A627 /* FileDownloadingCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FileDownloadingCenter-prefix.pch"; sourceTree = "<group>"; };
 		05D59EC7F62BBE4E2A9A301682F8F09D /* Pods-FileDownloadingCenter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileDownloadingCenter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		097F9C02E25FAFB2E7C90D442D3A0D55 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
-		0C1BABFAA32FF5AE7B36730C4CFB572E /* FileDownloadingCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FileDownloadingCenter.modulemap; sourceTree = "<group>"; };
-		0DAA15F4947E7A652D010219295D6E6F /* FileDownloadingCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FileDownloadingCenter-umbrella.h"; sourceTree = "<group>"; };
-		0FEF87252CA3AAD757B78ED4E2E5FF2D /* ModelDownloaderManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelDownloaderManager.swift; sourceTree = "<group>"; };
 		10DB674B68B432A02697EB1664B9CD4E /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
-		1219CEB41CC1ECF293273FCA0F506C85 /* DownloaderManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DownloaderManager.swift; sourceTree = "<group>"; };
-		15EBE6903C7DB7999C40CE81B5FDD203 /* DownloaderQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DownloaderQueue.swift; sourceTree = "<group>"; };
 		1750C70EA0C0E42D9619E3A2B65E48B4 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
 		19E0A3195347102D045E1D9CE781542B /* Pods-FileDownloadingCenter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileDownloadingCenter_Example-dummy.m"; sourceTree = "<group>"; };
-		21B03CA622E690725A6626C088E1D09F /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B03CA622E690725A6626C088E1D09F /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		243916291A44CE9CE6B7B540A8374EE7 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		2732D655E41FD1FD2C1BA95B6F525E9D /* DownloaderManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DownloaderManager.swift; sourceTree = "<group>"; };
+		28CA9B92E3C24EE078C92DB23AD971CF /* FileDownloadingCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FileDownloadingCenter-umbrella.h"; sourceTree = "<group>"; };
 		2D281F36DB7F08E4EC7052F565890566 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		322E2658AB24D3C13C1A8F217B0CBEC0 /* SafeDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SafeDictionary.swift; sourceTree = "<group>"; };
-		3AD485B15496DA0A978895BE2090FDEC /* DefaultSessionConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultSessionConfiguration.swift; sourceTree = "<group>"; };
-		41D99B866A2CAD806F78A46445A9E5B9 /* ReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
-		538E9CA21502AE1DD786BFC30AFEB214 /* DownloadTaskState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DownloadTaskState.swift; sourceTree = "<group>"; };
+		308D364F2BCE54C1F8E16AB2C0650424 /* FileDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileDownloader.swift; sourceTree = "<group>"; };
+		355A59D03A60AD4584069EAF353D76D8 /* FileDownloadingCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FileDownloadingCenter.modulemap; sourceTree = "<group>"; };
+		42352AF7689A779CA2B8BD7FA547E3FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4E8EB51EBBC4B858D3F6BC2F56B425D4 /* FileDownloadingCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FileDownloadingCenter.xcconfig; sourceTree = "<group>"; };
+		51F10BAA665A31DF259190E56537A73E /* SessionCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SessionCenter.swift; sourceTree = "<group>"; };
 		55C02E6E54DD4AC1CD39916BA4C400F3 /* Pods-FileDownloadingCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileDownloadingCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5F078DA3C63439BC100BD88A3B806CFC /* ModelDownloaderManagerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelDownloaderManagerProtocol.swift; sourceTree = "<group>"; };
 		60DE6B2F48B6DD293B2E623D2BA0EE57 /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
 		63B69D60BEE3D2592D8106FD3D4615CC /* Pods-FileDownloadingCenter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FileDownloadingCenter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6416EA54444DA2FEB755E0D20D04A575 /* Pods-FileDownloadingCenter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FileDownloadingCenter_Tests-Info.plist"; sourceTree = "<group>"; };
-		68ABD4B60FC4EF2F9767D5ECAB1AFD75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		6A329D49FDE8A2678B8105562944C0DB /* Pods_FileDownloadingCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileDownloadingCenter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C71D0D3514ED46DF39CCBC20F8122F /* FileDownloadingCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FileDownloadingCenter-Info.plist"; sourceTree = "<group>"; };
+		6A329D49FDE8A2678B8105562944C0DB /* Pods_FileDownloadingCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FileDownloadingCenter_Tests.framework; path = "Pods-FileDownloadingCenter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747F7221BD5A4C4EF67D65A21E6A2DAF /* Pods-FileDownloadingCenter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FileDownloadingCenter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		76993CD1BF80727D1765EE4E9A1FB108 /* FileDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileDownloader.swift; sourceTree = "<group>"; };
-		83BBDA4BBC2A1614EEB903133C6F4C87 /* FileDownloadingCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FileDownloadingCenter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873AF855CD5210FB782611EB6BB6B26F /* Pods-FileDownloadingCenter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileDownloadingCenter_Example-umbrella.h"; sourceTree = "<group>"; };
+		88D9F5AAD72217B83CF3E607203B043B /* FileDownloadingCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FileDownloadingCenter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8FC53342CB4BBD9853634BFA48396502 /* ModelDownloaderManagerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelDownloaderManagerProtocol.swift; sourceTree = "<group>"; };
+		91DA12733D71E6D29BD0BBD47FCF7B5C /* DownloadableItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DownloadableItem.swift; sourceTree = "<group>"; };
 		9257F36238D930164E0374BC499D0311 /* Pods-FileDownloadingCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileDownloadingCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9B6A0578E37409EDBC45BA4D046C72B4 /* SessionCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SessionCenter.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A02C681FDC52716ACD416CF5286A1726 /* Pods_FileDownloadingCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileDownloadingCenter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A02C681FDC52716ACD416CF5286A1726 /* Pods_FileDownloadingCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FileDownloadingCenter_Example.framework; path = "Pods-FileDownloadingCenter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62DF9DF9C2D8324E6460988A3AD1D28 /* DefaultSessionConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultSessionConfiguration.swift; sourceTree = "<group>"; };
 		A63AA6A784ADDF8A23387D70602241AE /* Pods-FileDownloadingCenter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FileDownloadingCenter_Tests.modulemap"; sourceTree = "<group>"; };
 		A69743C3E7F88F03C0FFCA97231FDD1F /* Pods-FileDownloadingCenter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FileDownloadingCenter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A6C74EB4000FBED5CA5EC68937660FFC /* Pods-FileDownloadingCenter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FileDownloadingCenter_Example.modulemap"; sourceTree = "<group>"; };
-		A72E21A90BB1CBA7A205D6019BE7629A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ACDBF7BC5D09476DEFA418CFA31AE275 /* Pods-FileDownloadingCenter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FileDownloadingCenter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B1975B2E84C660C541D41DABC592B9E6 /* FileDownloadingCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FileDownloadingCenter.xcconfig; sourceTree = "<group>"; };
-		B1E098BFF3F658FD387EF8942762DC94 /* FileDownloadingCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FileDownloadingCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E098BFF3F658FD387EF8942762DC94 /* FileDownloadingCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FileDownloadingCenter.framework; path = FileDownloadingCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30E2C072A1B89C97A9F2F16BB94098E /* ReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		B48D3A67C579348BE6DD585E4873E273 /* DownloadTaskState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DownloadTaskState.swift; sourceTree = "<group>"; };
 		B99A2EC123714C7D13A5D6D0F6C0D1BC /* Pods-FileDownloadingCenter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileDownloadingCenter_Tests-dummy.m"; sourceTree = "<group>"; };
 		BB28D7BC5F14E7829FDCFD9D7BE03038 /* Pods-FileDownloadingCenter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileDownloadingCenter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BB69B58096F429C78AA6E392B25A9933 /* FileManagerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
+		BBDB56CE70A5CD5545954E0DA1B224DC /* FileDownloadingCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FileDownloadingCenter-dummy.m"; sourceTree = "<group>"; };
+		BF347EF9C7F402EAAB01285A7AC181D1 /* FileManagerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
 		C1D8A739C4668EF2C0C1960A08F079D3 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CF19DEDC14A0D6BB0B93ACE1C0D372 /* Pods-FileDownloadingCenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileDownloadingCenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C50AAB22399F5EC31A19374B9457EA65 /* Pods-FileDownloadingCenter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileDownloadingCenter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C5D4069A7F303FC5DE3D298E460F976D /* FileDownloadingCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FileDownloadingCenter-prefix.pch"; sourceTree = "<group>"; };
-		DB3911DE4C426E8F33CAB6E394927A48 /* DownloadableItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DownloadableItem.swift; sourceTree = "<group>"; };
 		DE587E2C51194200B0C9DDDCEADC5392 /* Pods-FileDownloadingCenter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FileDownloadingCenter_Example-Info.plist"; sourceTree = "<group>"; };
+		DED084E2F51A6BC2B07EDE83FEC95577 /* DownloadTaskOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DownloadTaskOperation.swift; sourceTree = "<group>"; };
 		E1DDE56472C3C9DF16E4AD6EA2992448 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		E485009AB6786FAEE744058D2B8139E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E85665B2D4737161268A834A079CC821 /* DownloaderQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DownloaderQueue.swift; sourceTree = "<group>"; };
 		E98D31F0947659EDA26AD0332B9FD098 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		EF1D40AA647C94453BBE0D22CAE943A1 /* FileDownloadingCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FileDownloadingCenter-dummy.m"; sourceTree = "<group>"; };
 		F09A4723F06A242B0FA6447B7FEEFF90 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		F4904C2121D407349697EEC458E7A2C0 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
-		FB4C8C9EBFC6E2E8EFEE95BA9769AE21 /* FileDownloadingCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FileDownloadingCenter-Info.plist"; sourceTree = "<group>"; };
+		FC7F2745A322D8813FDC2353A5247B1B /* ModelDownloaderManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelDownloaderManager.swift; sourceTree = "<group>"; };
+		FE8D2E2BEDF0384498A443088A4B9E59 /* SafeDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SafeDictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,22 +136,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2071DB75793A8D3726F293B48645D431 /* Frameworks */ = {
+		1B2294AE7DEED36D77B2AB1205B151FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEECB5D180D3CB7D0CCDEE7A41CA3143 /* Foundation.framework in Frameworks */,
-				FFA9A015A00032FED87B4220FB675E4C /* Reachability.framework in Frameworks */,
+				1F11D5FB998E8ED0DA95767B6C84FF77 /* CoreTelephony.framework in Frameworks */,
+				067E3259C6D6768CF34DAF9C67174E18 /* Foundation.framework in Frameworks */,
+				C75215D277B5EB9A3B86F82F9BF45C00 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		956071912870F24F6DA268644DB25017 /* Frameworks */ = {
+		1E6852527F690D43541FF0E76FE08513 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F0F35D93A0B268524AB19B78C776436 /* CoreTelephony.framework in Frameworks */,
-				22DF5CFC8CECD52F911C1E2747F24FEC /* Foundation.framework in Frameworks */,
-				2D2AB0F1E41B6D9C4EE7840FD8F2CB04 /* SystemConfiguration.framework in Frameworks */,
+				1BE38006F7BB69A0FAA07D10BD77FF3A /* Foundation.framework in Frameworks */,
+				C648607295887A4FBEF99D2A629C5094 /* Reachability.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,26 +166,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		169E6FF4B76F606660A5E6D7371ADD22 /* Extensions */ = {
+		055EEDA71459F8C91E9E36BF4738D57F /* FileDownloadingCenter */ = {
 			isa = PBXGroup;
 			children = (
-				BB69B58096F429C78AA6E392B25A9933 /* FileManagerExtension.swift */,
-				322E2658AB24D3C13C1A8F217B0CBEC0 /* SafeDictionary.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		2E88F3A1C1F2D8395A6EACF3E6F4F5D7 /* FileDownloadingCenter */ = {
-			isa = PBXGroup;
-			children = (
-				D49619D7B50979FEA7314AABFD2AA9AF /* DownloadCenter */,
-				E4F211DDD4453B4F258A6F8144AC5167 /* ModelDownloaderManager */,
-				D240E9ACD4DB376469E011EDAA7B6FAD /* Pod */,
-				BEEAAC7DBEF023364DA5769BF9DF4B54 /* Reachability */,
-				B1625E318B94DC94F9D2B110C61EC445 /* Support Files */,
+				CB8F90100356383E8E508FA5D43F8212 /* DownloadCenter */,
+				AAAAB4FFDF0754877F32591E56A3F2B2 /* ModelDownloaderManager */,
+				6C9D3C511930B4C79363E65015C64D74 /* Pod */,
+				CB245F3D0737904CF631CDFF1C1A44B6 /* Reachability */,
+				6A771F0AB9357CDC7F65037DEA77910C /* Support Files */,
 			);
 			name = FileDownloadingCenter;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		2ACA2CDB4B9E3DB80B885F8E95ED732C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				055EEDA71459F8C91E9E36BF4738D57F /* FileDownloadingCenter */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		41B7566E16DEECBF2C9F2F3D6F748C0D /* Frameworks */ = {
@@ -224,20 +223,48 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		57EC2DD261870B3200E0128B61F2E5FC /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2E88F3A1C1F2D8395A6EACF3E6F4F5D7 /* FileDownloadingCenter */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		5D0AA215FB49F5F6E11902E9E88FDB66 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				AB141DEEC5EED015062C5277880ECC86 /* ReachabilitySwift */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		66DC298A334855CE9D1AAAA4711F471D /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				E85665B2D4737161268A834A079CC821 /* DownloaderQueue.swift */,
+				DED084E2F51A6BC2B07EDE83FEC95577 /* DownloadTaskOperation.swift */,
+				B48D3A67C579348BE6DD585E4873E273 /* DownloadTaskState.swift */,
+				308D364F2BCE54C1F8E16AB2C0650424 /* FileDownloader.swift */,
+			);
+			name = Downloader;
+			path = Downloader;
+			sourceTree = "<group>";
+		};
+		6A771F0AB9357CDC7F65037DEA77910C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				355A59D03A60AD4584069EAF353D76D8 /* FileDownloadingCenter.modulemap */,
+				4E8EB51EBBC4B858D3F6BC2F56B425D4 /* FileDownloadingCenter.xcconfig */,
+				BBDB56CE70A5CD5545954E0DA1B224DC /* FileDownloadingCenter-dummy.m */,
+				68C71D0D3514ED46DF39CCBC20F8122F /* FileDownloadingCenter-Info.plist */,
+				026991FF998D527EB6D17B3C43F8A627 /* FileDownloadingCenter-prefix.pch */,
+				28CA9B92E3C24EE078C92DB23AD971CF /* FileDownloadingCenter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FileDownloadingCenter";
+			sourceTree = "<group>";
+		};
+		6C9D3C511930B4C79363E65015C64D74 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				88D9F5AAD72217B83CF3E607203B043B /* FileDownloadingCenter.podspec */,
+				E485009AB6786FAEE744058D2B8139E6 /* LICENSE */,
+				42352AF7689A779CA2B8BD7FA547E3FF /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		8DDFD968C2A4967F61AC011C13407DAA /* Pods-FileDownloadingCenter_Example */ = {
@@ -280,83 +307,69 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		AAAAB4FFDF0754877F32591E56A3F2B2 /* ModelDownloaderManager */ = {
+			isa = PBXGroup;
+			children = (
+				FC7F2745A322D8813FDC2353A5247B1B /* ModelDownloaderManager.swift */,
+				8FC53342CB4BBD9853634BFA48396502 /* ModelDownloaderManagerProtocol.swift */,
+			);
+			name = ModelDownloaderManager;
+			path = FileDownloadingCenter/Classes/ModelDownloaderManager;
+			sourceTree = "<group>";
+		};
 		AB141DEEC5EED015062C5277880ECC86 /* ReachabilitySwift */ = {
 			isa = PBXGroup;
 			children = (
 				F4904C2121D407349697EEC458E7A2C0 /* Reachability.swift */,
 				8F3F68B3C039AAC6A565794AC383786B /* Support Files */,
 			);
+			name = ReachabilitySwift;
 			path = ReachabilitySwift;
 			sourceTree = "<group>";
 		};
-		AC88E914EB8FD9CFDEF7566FB7ADDA41 /* Downloader */ = {
+		B4B8776662492CA08358A6E1DAF479CE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				15EBE6903C7DB7999C40CE81B5FDD203 /* DownloaderQueue.swift */,
-				02A0EF58D2CCC62A28E3FDFAD4B1DD47 /* DownloadTaskOperation.swift */,
-				538E9CA21502AE1DD786BFC30AFEB214 /* DownloadTaskState.swift */,
-				76993CD1BF80727D1765EE4E9A1FB108 /* FileDownloader.swift */,
+				BF347EF9C7F402EAAB01285A7AC181D1 /* FileManagerExtension.swift */,
+				FE8D2E2BEDF0384498A443088A4B9E59 /* SafeDictionary.swift */,
 			);
-			path = Downloader;
+			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		B1625E318B94DC94F9D2B110C61EC445 /* Support Files */ = {
+		CB245F3D0737904CF631CDFF1C1A44B6 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				0C1BABFAA32FF5AE7B36730C4CFB572E /* FileDownloadingCenter.modulemap */,
-				B1975B2E84C660C541D41DABC592B9E6 /* FileDownloadingCenter.xcconfig */,
-				EF1D40AA647C94453BBE0D22CAE943A1 /* FileDownloadingCenter-dummy.m */,
-				FB4C8C9EBFC6E2E8EFEE95BA9769AE21 /* FileDownloadingCenter-Info.plist */,
-				C5D4069A7F303FC5DE3D298E460F976D /* FileDownloadingCenter-prefix.pch */,
-				0DAA15F4947E7A652D010219295D6E6F /* FileDownloadingCenter-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FileDownloadingCenter";
-			sourceTree = "<group>";
-		};
-		BEEAAC7DBEF023364DA5769BF9DF4B54 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				41D99B866A2CAD806F78A46445A9E5B9 /* ReachabilityManager.swift */,
+				B30E2C072A1B89C97A9F2F16BB94098E /* ReachabilityManager.swift */,
 			);
 			name = Reachability;
 			path = FileDownloadingCenter/Classes/Reachability;
+			sourceTree = "<group>";
+		};
+		CB8F90100356383E8E508FA5D43F8212 /* DownloadCenter */ = {
+			isa = PBXGroup;
+			children = (
+				A62DF9DF9C2D8324E6460988A3AD1D28 /* DefaultSessionConfiguration.swift */,
+				91DA12733D71E6D29BD0BBD47FCF7B5C /* DownloadableItem.swift */,
+				2732D655E41FD1FD2C1BA95B6F525E9D /* DownloaderManager.swift */,
+				51F10BAA665A31DF259190E56537A73E /* SessionCenter.swift */,
+				66DC298A334855CE9D1AAAA4711F471D /* Downloader */,
+				B4B8776662492CA08358A6E1DAF479CE /* Extensions */,
+			);
+			name = DownloadCenter;
+			path = FileDownloadingCenter/Classes/DownloadCenter;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				57EC2DD261870B3200E0128B61F2E5FC /* Development Pods */,
+				2ACA2CDB4B9E3DB80B885F8E95ED732C /* Development Pods */,
 				41B7566E16DEECBF2C9F2F3D6F748C0D /* Frameworks */,
 				5D0AA215FB49F5F6E11902E9E88FDB66 /* Pods */,
 				52E4AFBE101E57500AE9EC22FA35535F /* Products */,
 				A0EACCBA67EC7BCE04E98B1AD5A5DE1F /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D240E9ACD4DB376469E011EDAA7B6FAD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				83BBDA4BBC2A1614EEB903133C6F4C87 /* FileDownloadingCenter.podspec */,
-				68ABD4B60FC4EF2F9767D5ECAB1AFD75 /* LICENSE */,
-				A72E21A90BB1CBA7A205D6019BE7629A /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		D49619D7B50979FEA7314AABFD2AA9AF /* DownloadCenter */ = {
-			isa = PBXGroup;
-			children = (
-				3AD485B15496DA0A978895BE2090FDEC /* DefaultSessionConfiguration.swift */,
-				DB3911DE4C426E8F33CAB6E394927A48 /* DownloadableItem.swift */,
-				1219CEB41CC1ECF293273FCA0F506C85 /* DownloaderManager.swift */,
-				9B6A0578E37409EDBC45BA4D046C72B4 /* SessionCenter.swift */,
-				AC88E914EB8FD9CFDEF7566FB7ADDA41 /* Downloader */,
-				169E6FF4B76F606660A5E6D7371ADD22 /* Extensions */,
-			);
-			name = DownloadCenter;
-			path = FileDownloadingCenter/Classes/DownloadCenter;
 			sourceTree = "<group>";
 		};
 		E14987262BED16E371F8BB7588267DE3 /* iOS */ = {
@@ -367,16 +380,6 @@
 				F09A4723F06A242B0FA6447B7FEEFF90 /* SystemConfiguration.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		E4F211DDD4453B4F258A6F8144AC5167 /* ModelDownloaderManager */ = {
-			isa = PBXGroup;
-			children = (
-				0FEF87252CA3AAD757B78ED4E2E5FF2D /* ModelDownloaderManager.swift */,
-				5F078DA3C63439BC100BD88A3B806CFC /* ModelDownloaderManagerProtocol.swift */,
-			);
-			name = ModelDownloaderManager;
-			path = FileDownloadingCenter/Classes/ModelDownloaderManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,11 +393,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63D5216425BEC005AFBD0D05A66C83F8 /* Headers */ = {
+		5FED834FE351138630766C212ABAC71A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67A2DE2A10934EFDF7D880EADDC2FDA8 /* ReachabilitySwift-umbrella.h in Headers */,
+				DC93B9970E042D790AA41CEAEE791DE5 /* ReachabilitySwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,11 +409,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB59AAE25A96D8FAF7CBABF250F5120B /* Headers */ = {
+		B973F8809EC0219D76A084F3CF67D674 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0345B050823A1287E4BB21CB5D29F5E /* FileDownloadingCenter-umbrella.h in Headers */,
+				F676C56F3924372A9338C9C1DB6B50A1 /* FileDownloadingCenter-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,12 +422,12 @@
 /* Begin PBXNativeTarget section */
 		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3BF1B3E4756F51A24C889EA4E4FDE53 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildConfigurationList = E35B9AC1C0CA40BB99E7A6887A580357 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
 			buildPhases = (
-				63D5216425BEC005AFBD0D05A66C83F8 /* Headers */,
-				ED02D4C4EAB4A7164AE33F594FC3BB02 /* Sources */,
-				956071912870F24F6DA268644DB25017 /* Frameworks */,
-				8BE03507A61325E10FB15ACC0BB95B48 /* Resources */,
+				5FED834FE351138630766C212ABAC71A /* Headers */,
+				777C9262750061B1BBCA0AE3AA73F735 /* Sources */,
+				1B2294AE7DEED36D77B2AB1205B151FE /* Frameworks */,
+				BBF7914F995D644B8DAA7E36FA5F3FEB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -437,17 +440,17 @@
 		};
 		318BEA7042FA7BBAF8877B2FEF1451DF /* FileDownloadingCenter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 906628E6A165BE0DE6531549F96A1AD3 /* Build configuration list for PBXNativeTarget "FileDownloadingCenter" */;
+			buildConfigurationList = D5E22A8F6A0E871FA8F67D0455E9B1FE /* Build configuration list for PBXNativeTarget "FileDownloadingCenter" */;
 			buildPhases = (
-				EB59AAE25A96D8FAF7CBABF250F5120B /* Headers */,
-				113EFA4FA876F149525A469DD9469BDF /* Sources */,
-				2071DB75793A8D3726F293B48645D431 /* Frameworks */,
-				5D94D0239A562EFA6752743DDFF80166 /* Resources */,
+				B973F8809EC0219D76A084F3CF67D674 /* Headers */,
+				6489504BF7F5E1AE20190B335C30DF52 /* Sources */,
+				1E6852527F690D43541FF0E76FE08513 /* Frameworks */,
+				1EC359A935E75CEAACDDDAC8E4125790 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1192B4A7F2A0445575520EB9A4785FDB /* PBXTargetDependency */,
+				2A5BF995D7E7157648391AED0752ABFC /* PBXTargetDependency */,
 			);
 			name = FileDownloadingCenter;
 			productName = FileDownloadingCenter;
@@ -530,14 +533,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D94D0239A562EFA6752743DDFF80166 /* Resources */ = {
+		1EC359A935E75CEAACDDDAC8E4125790 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BE03507A61325E10FB15ACC0BB95B48 /* Resources */ = {
+		BBF7914F995D644B8DAA7E36FA5F3FEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -554,27 +557,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		113EFA4FA876F149525A469DD9469BDF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E79C9040C5B7687E3A91C8B773815A2 /* DefaultSessionConfiguration.swift in Sources */,
-				D03BFE5B1049C78AF3FCD996A5B4A37D /* DownloadableItem.swift in Sources */,
-				021CC47A5111E138381209D4A6F03FD5 /* DownloaderManager.swift in Sources */,
-				4EF388C12CC5293B5BEB36A2F06472EC /* DownloaderQueue.swift in Sources */,
-				C7835CDD9DED60524E60FBAF96C4B543 /* DownloadTaskOperation.swift in Sources */,
-				9C46EDC23FAAF38CD2A1E7D274CABDB9 /* DownloadTaskState.swift in Sources */,
-				59BF809CAD376F99D86A71411F2430A3 /* FileDownloader.swift in Sources */,
-				8068BA8F9ACEA5342551FDAF62A0353F /* FileDownloadingCenter-dummy.m in Sources */,
-				24E803B80FE3628042E0CC3D536E845A /* FileManagerExtension.swift in Sources */,
-				F67DF139AC7648B5506A4BFD68AA1A32 /* ModelDownloaderManager.swift in Sources */,
-				8E0F62BFCF062B2BF67EF6AAF7A1B974 /* ModelDownloaderManagerProtocol.swift in Sources */,
-				5CACD7BD343AA2D41B2B7CC7E8B2CD70 /* ReachabilityManager.swift in Sources */,
-				4613C9D222466BC34044D961FDCA0561 /* SafeDictionary.swift in Sources */,
-				16D118DC449E7702DDF5F17FB650E830 /* SessionCenter.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3D1A1CC841F8442187A3D146732BD887 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -591,23 +573,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED02D4C4EAB4A7164AE33F594FC3BB02 /* Sources */ = {
+		6489504BF7F5E1AE20190B335C30DF52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F96C0D3E8C7032788267A25318A13C09 /* Reachability.swift in Sources */,
-				2AAA0D80AD4DC55CCB8C67903B4D9DA1 /* ReachabilitySwift-dummy.m in Sources */,
+				57F1E34E1688EC4F07C866C2A0F881E4 /* DefaultSessionConfiguration.swift in Sources */,
+				69C70556B3A44CD5FC6DC557DDBCD02E /* DownloadableItem.swift in Sources */,
+				2B557B8A44CA323E8F13F5CD7E639225 /* DownloaderManager.swift in Sources */,
+				C7BE5D2DF9B4C80779E1EEEFCF0F3C49 /* DownloaderQueue.swift in Sources */,
+				C69FCC077BC6EE89CAE3EF1C82BF985C /* DownloadTaskOperation.swift in Sources */,
+				1890FE200BBA75CBCE508D7A5A0D3835 /* DownloadTaskState.swift in Sources */,
+				548DA259ADC2DB2A94421120CE94AA0E /* FileDownloader.swift in Sources */,
+				99BA1A3F2485BFD7B7A87320291EABFA /* FileDownloadingCenter-dummy.m in Sources */,
+				AF767725D2643C2D7CC2B628C5C5A2C7 /* FileManagerExtension.swift in Sources */,
+				35E7BA0BB527E0A135336C6E203E4FA1 /* ModelDownloaderManager.swift in Sources */,
+				F69AB73805E436B441C1194E71DB141A /* ModelDownloaderManagerProtocol.swift in Sources */,
+				ECA2D610BFDB8AE820573D272ABD0C24 /* ReachabilityManager.swift in Sources */,
+				5A83970441CE748EEB5F9155F43E35DC /* SafeDictionary.swift in Sources */,
+				521E59EB584B360D466DE4EC962B297E /* SessionCenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777C9262750061B1BBCA0AE3AA73F735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51844ACFA66F64755F71D521A1248DB /* Reachability.swift in Sources */,
+				C3EB57CF195CA74FE726876A77F5D26A /* ReachabilitySwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1192B4A7F2A0445575520EB9A4785FDB /* PBXTargetDependency */ = {
+		2A5BF995D7E7157648391AED0752ABFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ReachabilitySwift;
 			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
-			targetProxy = 6E3B216C6A69F136F05C09E485C7E5EA /* PBXContainerItemProxy */;
+			targetProxy = 78A08F22B6F06A743FA96C287D815B9B /* PBXContainerItemProxy */;
 		};
 		676BCE2818CA60DEF61C5BF89BF35B9C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -630,37 +633,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00E30188940CC0D5E930F64CA79959AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 243916291A44CE9CE6B7B540A8374EE7 /* ReachabilitySwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
-				PRODUCT_MODULE_NAME = Reachability;
-				PRODUCT_NAME = Reachability;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -725,9 +697,42 @@
 			};
 			name = Debug;
 		};
-		6B3286DCD7756612805B6B6639E18A5B /* Debug */ = {
+		64D18EE2B92A752C66AAD13AE73FFBD9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1975B2E84C660C541D41DABC592B9E6 /* FileDownloadingCenter.xcconfig */;
+			baseConfigurationReference = 4E8EB51EBBC4B858D3F6BC2F56B425D4 /* FileDownloadingCenter.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FileDownloadingCenter/FileDownloadingCenter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FileDownloadingCenter/FileDownloadingCenter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FileDownloadingCenter/FileDownloadingCenter.modulemap";
+				PRODUCT_MODULE_NAME = FileDownloadingCenter;
+				PRODUCT_NAME = FileDownloadingCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8617CA16C7E1359B9633742F698082E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8EB51EBBC4B858D3F6BC2F56B425D4 /* FileDownloadingCenter.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -757,40 +762,7 @@
 			};
 			name = Debug;
 		};
-		71E60CB31361ECF5453458A443D6DB2F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1975B2E84C660C541D41DABC592B9E6 /* FileDownloadingCenter.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FileDownloadingCenter/FileDownloadingCenter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FileDownloadingCenter/FileDownloadingCenter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FileDownloadingCenter/FileDownloadingCenter.modulemap";
-				PRODUCT_MODULE_NAME = FileDownloadingCenter;
-				PRODUCT_NAME = FileDownloadingCenter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9EF5B6CCF337FFBC6324A3C6C2AF5304 /* Release */ = {
+		87300C2EF24CB8939CAD69247205BE76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 243916291A44CE9CE6B7B540A8374EE7 /* ReachabilitySwift.xcconfig */;
 			buildSettings = {
@@ -816,11 +788,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		A0E9D0960E2849ABAC41614D34E89415 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -850,6 +821,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A53EB4F92842321151B0ED340B148434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 243916291A44CE9CE6B7B540A8374EE7 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -910,7 +913,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1040,15 +1044,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		906628E6A165BE0DE6531549F96A1AD3 /* Build configuration list for PBXNativeTarget "FileDownloadingCenter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6B3286DCD7756612805B6B6639E18A5B /* Debug */,
-				71E60CB31361ECF5453458A443D6DB2F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BD99D1BFB5975346BF2A05D63FB239C5 /* Build configuration list for PBXNativeTarget "Pods-FileDownloadingCenter_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1058,11 +1053,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3BF1B3E4756F51A24C889EA4E4FDE53 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+		D5E22A8F6A0E871FA8F67D0455E9B1FE /* Build configuration list for PBXNativeTarget "FileDownloadingCenter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00E30188940CC0D5E930F64CA79959AA /* Debug */,
-				9EF5B6CCF337FFBC6324A3C6C2AF5304 /* Release */,
+				8617CA16C7E1359B9633742F698082E4 /* Debug */,
+				64D18EE2B92A752C66AAD13AE73FFBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E35B9AC1C0CA40BB99E7A6887A580357 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87300C2EF24CB8939CAD69247205BE76 /* Debug */,
+				A53EB4F92842321151B0ED340B148434 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

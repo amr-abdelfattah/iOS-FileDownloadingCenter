@@ -225,7 +225,7 @@ FileDownloadingCenter is available through [CocoaPods](https://cocoapods.org). T
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'FileDownloadingCenter', '~> 1.0'
+pod 'FileDownloadingCenter', '~> 1.1'
 ```
 
 ### Swift Package Manager
@@ -233,7 +233,7 @@ The Swift Package Manager is a tool for automating the distribution of Swift cod
 
 ```
 dependencies: [
-.package(url: "https://github.com/amr-abdelfattah/iOS-FileDownloadingCenter.git", from: "1.0.5")
+.package(url: "https://github.com/amr-abdelfattah/iOS-FileDownloadingCenter.git", from: "1.1.0")
 ]
 ```
 
