@@ -54,41 +54,6 @@ public extension ModelDownloaderManagerProtocol {
         
     }
     
-//    func canDownload(withShowingMessage: Bool = true) -> (canDownload: Bool, errorMessage: String?) {
-//
-//        var _canDownload = false
-//        var errorMessage: String?
-//
-//        if let connection = ReachabilityManager.shared.reachability?.connection {
-//
-//            switch connection {
-//
-//            case .none, .unavailable:
-//                errorMessage = self.noInternetConnectionMessage
-//                _canDownload = false
-//
-//            case .wifi:
-//                _canDownload = true
-//
-//            case .cellular:
-//                let allowCelluar = self.allowCelluarNetworkDownload()
-//                errorMessage = allowCelluar ? nil : self.celluarNetworkInternetConnectionMessage
-//                _canDownload = allowCelluar
-//
-//            }
-//
-//        }
-//
-//        if withShowingMessage, let errorMessage = errorMessage {
-//
-//            self.showErrorMessage(errorMessage: errorMessage)
-//
-//        }
-//
-//        return (canDownload: _canDownload, errorMessage: errorMessage)
-//
-//    }
-    
 }
 
 // Listeners
@@ -125,15 +90,6 @@ public extension ModelDownloaderManagerProtocol {
       
         print("Downloader Remove \(downloaderListener)")
        
-//        print("FROM  --- ")
-//        self.downloaderListeners.forEach({
-//
-//            print("\($0.listener)")
-//
-//        })
-//        print("TO  --- ")
-        
-        
         self.clearDead()
         
        if let index = self.index(of: downloaderListener) {
