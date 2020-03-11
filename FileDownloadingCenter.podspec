@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   
   s.source_files = 'FileDownloadingCenter/Classes/**/*'
   
-  s.dependency 'ReachabilitySwift' , '~> 5.0'
+#  s.dependency 'ReachabilitySwift' , '~> 5.0'
   
   # s.resource_bundles = {
   #   'FileDownloadingCenter' => ['FileDownloadingCenter/Assets/*.png']

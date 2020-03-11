@@ -14,9 +14,6 @@ let package = Package(
             targets: ["FileDownloadingCenter"]),
         
     ],
-    dependencies: [
-        .package(url: "https://github.com/ashleymills/Reachability.swift.git", .exact("5.0.0"))
-    ],
     targets: [
         .target(
             name: "FileDownloadingCenter",

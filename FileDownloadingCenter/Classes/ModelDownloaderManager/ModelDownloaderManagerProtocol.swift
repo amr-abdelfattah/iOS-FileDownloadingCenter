@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Reachability
 
 public protocol DownloaderListener : class {
     
@@ -37,12 +36,12 @@ public protocol ModelDownloaderManagerProtocol {
     var downloaderListeners : [ListenerItem] { set get }
     func canDownload(withShowingMessage: Bool) -> (canDownload: Bool, errorMessage: String?)
     func showErrorMessage(errorMessage: String)
-    var noInternetConnectionMessage : String { get }
-    var celluarNetworkInternetConnectionMessage : String { get }
+//    var noInternetConnectionMessage : String { get }
+//    var celluarNetworkInternetConnectionMessage : String { get }
     func handleDownloadContinouty() -> Bool
     func updateItemDownloadFlag(itemIndentifier: String, isDownloaded: Bool)
     var sessionConfiguration: SessionConfigurationProtocol { get }
-    func allowCelluarNetworkDownload() -> Bool
+//    func allowCelluarNetworkDownload() -> Bool
     var downloadableItemProvider: DownloadableItemProvider? { get }
     
 }
@@ -55,40 +54,40 @@ public extension ModelDownloaderManagerProtocol {
         
     }
     
-    func canDownload(withShowingMessage: Bool = true) -> (canDownload: Bool, errorMessage: String?) {
-        
-        var _canDownload = false
-        var errorMessage: String?
-        
-        if let connection = ReachabilityManager.shared.reachability?.connection {
-            
-            switch connection {
-                
-            case .none, .unavailable:
-                errorMessage = self.noInternetConnectionMessage
-                _canDownload = false
-                
-            case .wifi:
-                _canDownload = true
-                
-            case .cellular:
-                let allowCelluar = self.allowCelluarNetworkDownload()
-                errorMessage = allowCelluar ? nil : self.celluarNetworkInternetConnectionMessage
-                _canDownload = allowCelluar
-                
-            }
-            
-        }
-        
-        if withShowingMessage, let errorMessage = errorMessage {
-            
-            self.showErrorMessage(errorMessage: errorMessage)
-            
-        }
-        
-        return (canDownload: _canDownload, errorMessage: errorMessage)
-        
-    }
+//    func canDownload(withShowingMessage: Bool = true) -> (canDownload: Bool, errorMessage: String?) {
+//
+//        var _canDownload = false
+//        var errorMessage: String?
+//
+//        if let connection = ReachabilityManager.shared.reachability?.connection {
+//
+//            switch connection {
+//
+//            case .none, .unavailable:
+//                errorMessage = self.noInternetConnectionMessage
+//                _canDownload = false
+//
+//            case .wifi:
+//                _canDownload = true
+//
+//            case .cellular:
+//                let allowCelluar = self.allowCelluarNetworkDownload()
+//                errorMessage = allowCelluar ? nil : self.celluarNetworkInternetConnectionMessage
+//                _canDownload = allowCelluar
+//
+//            }
+//
+//        }
+//
+//        if withShowingMessage, let errorMessage = errorMessage {
+//
+//            self.showErrorMessage(errorMessage: errorMessage)
+//
+//        }
+//
+//        return (canDownload: _canDownload, errorMessage: errorMessage)
+//
+//    }
     
 }
 

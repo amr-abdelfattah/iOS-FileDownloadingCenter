@@ -1,10 +1,10 @@
 PODS:
-  - FileDownloadingCenter (1.1.0):
-    - ReachabilitySwift (~> 5.0)
+  - FileDownloadingCenter (1.1.0)
   - ReachabilitySwift (5.0.0)
 
 DEPENDENCIES:
   - FileDownloadingCenter (from `../`)
+  - ReachabilitySwift (~> 5.0)
 
 SPEC REPOS:
   trunk:
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FileDownloadingCenter: f9dca0b844f14a7886ed67dd8372f88e92a22265
+  FileDownloadingCenter: adfa6ef6b24b97db22c6cdd8906b70536e5ba815
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
 
-PODFILE CHECKSUM: e8ba1119be1f028d80bc5bddaeefb789597029a0
+PODFILE CHECKSUM: c957ad9504adcf9fa2f52fe3ea1e538970a89dd3
 
 COCOAPODS: 1.8.3

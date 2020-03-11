@@ -21,10 +21,5 @@
   },
   "swift_versions": "5.1",
   "source_files": "FileDownloadingCenter/Classes/**/*",
-  "dependencies": {
-    "ReachabilitySwift": [
-      "~> 5.0"
-    ]
-  },
   "swift_version": "5.1"
 }

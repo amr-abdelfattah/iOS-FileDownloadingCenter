@@ -2,7 +2,7 @@
 //  DownloadManager.swift
 //  MP3Quran
 //
-//  Created by Ahmad Atef on 6/19/16.
+//  Created by Amr El-Sayed on 6/19/19.
 //  Copyright © 2016 Smartech-Solutions. All rights reserved.
 //
 

@@ -22,6 +22,7 @@
 		845E6F1923DCEC6000A02215 /* MyDownloaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E6F1823DCEC6000A02215 /* MyDownloaderManager.swift */; };
 		845E6F1B23DCF75800A02215 /* DownloadFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E6F1A23DCF75800A02215 /* DownloadFileManager.swift */; };
 		845E6F1D23DCFD9800A02215 /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E6F1C23DCFD9800A02215 /* TrackTableViewCell.swift */; };
+		84DA8D52241908530051A065 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA8D51241908530051A065 /* ReachabilityManager.swift */; };
 		9CCD46EA4B7EB71AC80DFE05 /* Pods_FileDownloadingCenter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D30F392F868FA094321E8AB /* Pods_FileDownloadingCenter_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		845E6F1823DCEC6000A02215 /* MyDownloaderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDownloaderManager.swift; sourceTree = "<group>"; };
 		845E6F1A23DCF75800A02215 /* DownloadFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadFileManager.swift; sourceTree = "<group>"; };
 		845E6F1C23DCFD9800A02215 /* TrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTableViewCell.swift; sourceTree = "<group>"; };
+		84DA8D51241908530051A065 /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
 		8D30F392F868FA094321E8AB /* Pods_FileDownloadingCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileDownloadingCenter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C78373A2BCAED4FAAC39A9E /* Pods-FileDownloadingCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileDownloadingCenter_Tests.release.xcconfig"; path = "Target Support Files/Pods-FileDownloadingCenter_Tests/Pods-FileDownloadingCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AF3D683AD35FB90AEAC62CBE /* Pods_FileDownloadingCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileDownloadingCenter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +171,7 @@
 		845E6F1E23DD073B00A02215 /* DownlodingCenter */ = {
 			isa = PBXGroup;
 			children = (
+				84DA8D502419078C0051A065 /* Reachability */,
 				845E6F0E23DCE61900A02215 /* Track.swift */,
 				845E6F1223DCE9ED00A02215 /* DownloadSessionConfiguration.swift */,
 				845E6F1423DCEA3000A02215 /* MyDownloadableItemProvider.swift */,
@@ -178,6 +181,14 @@
 				845E6F1C23DCFD9800A02215 /* TrackTableViewCell.swift */,
 			);
 			name = DownlodingCenter;
+			sourceTree = "<group>";
+		};
+		84DA8D502419078C0051A065 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				84DA8D51241908530051A065 /* ReachabilityManager.swift */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 		F0502F272985F2D70ED462D3 /* Pods */ = {
@@ -372,6 +383,7 @@
 				845E6F1323DCE9ED00A02215 /* DownloadSessionConfiguration.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				845E6F1523DCEA3000A02215 /* MyDownloadableItemProvider.swift in Sources */,
+				84DA8D52241908530051A065 /* ReachabilityManager.swift in Sources */,
 				845E6F1D23DCFD9800A02215 /* TrackTableViewCell.swift in Sources */,
 				845E6F0F23DCE61900A02215 /* Track.swift in Sources */,
 				845E6F1723DCEAA700A02215 /* TracksRepository.swift in Sources */,

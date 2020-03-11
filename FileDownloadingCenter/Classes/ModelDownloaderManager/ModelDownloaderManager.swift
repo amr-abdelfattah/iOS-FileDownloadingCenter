@@ -35,23 +35,29 @@ open class ModelDownloaderManager : ModelDownloaderManagerProtocol {
         NotificationCenter.default.removeObserver(self)
     }
     
-    open var noInternetConnectionMessage : String {
-        
-        return "No Internet Connection !"
-        
-    }
-    
-    open var celluarNetworkInternetConnectionMessage : String {
-        
-        return "Connection may be not allow to establish this downloading session, you may review settings page to enable downloading over cellular connection"
+    open func canDownload(withShowingMessage: Bool = true) -> (canDownload: Bool, errorMessage: String?) {
+       
+        return (canDownload: true, errorMessage: nil)
         
     }
     
-    open func allowCelluarNetworkDownload() -> Bool {
-        
-        return true
-        
-    }
+//    open var noInternetConnectionMessage : String {
+//        
+//        return "No Internet Connection !"
+//        
+//    }
+//    
+//    open var celluarNetworkInternetConnectionMessage : String {
+//        
+//        return "Connection may be not allow to establish this downloading session, you may review settings page to enable downloading over cellular connection"
+//        
+//    }
+//    
+//    open func allowCelluarNetworkDownload() -> Bool {
+//        
+//        return true
+//        
+//    }
     
     open var downloadableItemProvider: DownloadableItemProvider? {
         return nil

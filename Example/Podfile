@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'FileDownloadingCenter_Example' do
   pod 'FileDownloadingCenter', :path => '../'
+  pod 'ReachabilitySwift' , '~> 5.0'
 
   target 'FileDownloadingCenter_Tests' do
     inherit! :search_paths
