@@ -18,7 +18,6 @@ let package = Package(
     targets: [
         .target(
             name: "FileDownloadingCenter",
-            dependencies: ["Reachability"],
             path: "FileDownloadingCenter")
     ]
 )
