@@ -7,6 +7,7 @@ let package = Package(
     name: "FileDownloadingCenter",
     platforms: [
         .iOS(.v10),
+        .watchOS(.v5)
     ],
     products: [
         .library(
