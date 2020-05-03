@@ -45,7 +45,9 @@ class TrackTableViewCell: UITableViewCell {
 
     private func setIsDownloading(_ isDownloading: Bool) {
         
-        self.detailTextLabel?.text = isDownloading ? "Downloading ..." : ""
+      DispatchQueue.main.async {
+       self.detailTextLabel?.text = isDownloading ? "Downloading ..." : ""
+      }
         
     }
     

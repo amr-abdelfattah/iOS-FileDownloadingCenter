@@ -162,8 +162,8 @@ public extension ModelDownloaderManager {
 
         DispatchQueue.global(qos: .background).async {
             
-            let downloader = notification.object as! FileDownloader
-            
+          if let downloader = notification.object as? FileDownloader {
+           
             for downloaderListener in self.downloaderListeners {
                 
                     if self.isEnabledListener(downloaderListener, forIdentifier: downloader.identifier) {
@@ -178,6 +178,7 @@ public extension ModelDownloaderManager {
                 
             }
             
+          }
             print("LISTENER: didUpdateProgress 2")
             
         }
