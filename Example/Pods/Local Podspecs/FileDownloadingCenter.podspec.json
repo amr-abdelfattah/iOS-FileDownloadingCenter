@@ -1,6 +1,6 @@
 {
   "name": "FileDownloadingCenter",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "summary": "File Downloading Center is an iOS downloading library for files.",
   "description": "File Downloading Center is used for facilitating the files downloading and all its stuff from storing, restoring, displaying, ...",
   "authors": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/amr-abdelfattah/iOS-FileDownloadingCenter.git",
-    "tag": "1.1.3"
+    "tag": "1.1.4"
   },
   "platforms": {
     "ios": "10.0",

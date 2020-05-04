@@ -73,8 +73,8 @@ class SafeDictionary<K: Hashable, V> {
         set {
             
             print("DOWNLOAD ALL SET BEFORE \(key)")
-//            self.concurrentQueue.async(flags: .barrier) {
-          self.concurrentQueue.sync {
+            self.concurrentQueue.async(flags: .barrier) {
+//          self.concurrentQueue.sync {
             
                 print("DOWNLOAD ALL SET DONE \(key)")
                 self.dictionary[key] = newValue
