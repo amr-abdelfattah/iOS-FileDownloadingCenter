@@ -181,7 +181,7 @@ public class SessionCenter : NSObject {
         
         var downloader : FileDownloader?
         
-        if let url = task.currentRequest?.url, let _downloader = self.downloaders[url], _downloader.sessionData.session == session {
+        if let url = task.originalRequest?.url, let _downloader = self.downloaders[url], _downloader.sessionData.session == session {
             
             downloader = _downloader
             
